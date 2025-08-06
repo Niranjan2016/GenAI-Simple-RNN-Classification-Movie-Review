@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
-
+#GenAI-Simple RNN-Classification-Movie-Review
 ## Mapping of words index back to words (for our understanding)
 word_index = imdb.get_word_index()
 # word_index
