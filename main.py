@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model
 #GenAI-Simple RNN-Classification-Movie-Review
 ## Mapping of words index back to words (for our understanding)
 word_index = imdb.get_word_index()
+
 # word_index
 reverse_word_index = {value:key for key,value in word_index.items()}
 
